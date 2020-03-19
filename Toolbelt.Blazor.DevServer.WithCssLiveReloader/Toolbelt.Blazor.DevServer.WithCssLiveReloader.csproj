@@ -31,7 +31,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="3.2.0-preview2.20160.5" />
     <PackageReference Include="Microsoft.Extensions.CommandLineUtils" Version="1.1.1" />
-    <PackageReference Include="Toolbelt.AspNetCore.CssLiveReloader" Version="1.0.0" />
+    <PackageReference Include="Toolbelt.AspNetCore.CssLiveReloader" Version="1.0.1" />
   </ItemGroup>
 
   <!-- Pack settings -->

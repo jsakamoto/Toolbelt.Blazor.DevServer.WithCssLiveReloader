@@ -12,6 +12,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.ResponseCompression;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Toolbelt.Extensions.DependencyInjection;
 
 namespace Microsoft.AspNetCore.Components.WebAssembly.DevServer.Server
 {
@@ -36,6 +37,7 @@ namespace Microsoft.AspNetCore.Components.WebAssembly.DevServer.Server
             EnableConfiguredPathbase(app, configuration);
 
             app.UseWebAssemblyDebugging();
+            app.UseCssLiveReload();
 
             app.UseBlazorFrameworkFiles();
             app.UseStaticFiles();
