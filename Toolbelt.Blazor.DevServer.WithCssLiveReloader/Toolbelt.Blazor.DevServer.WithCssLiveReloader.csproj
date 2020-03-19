@@ -6,7 +6,7 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <StartupObject>Microsoft.AspNetCore.Components.WebAssembly.DevServer.Program</StartupObject>
     <Version>1.0.0.0</Version>
-    <Description>Development server for use when building Blazor applications, with CSS Live Reloader.</Description>
+    <Description>Alternative Blazor Dev Server to be available CSS live reloading.</Description>
     <Authors>J.Sakamoto</Authors>
     <Owners>J.Sakamoto</Owners>
     <Copyright>© J.Sakamoto. All rights reserved.</Copyright>
