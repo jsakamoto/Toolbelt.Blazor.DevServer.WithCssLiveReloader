@@ -7,7 +7,7 @@
     <owners>$owners$</owners>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <license type="expression">Apache-2.0</license>
-    <!--<icon>Icon.png</icon>-->
+    <icon>Icon.png</icon>
     <projectUrl>$projectUrl$</projectUrl>
     <description>$description$</description>
     <copyright>$copyright$</copyright>
@@ -15,6 +15,7 @@
     <releaseNotes>$releaseNotes$</releaseNotes>
   </metadata>
   <files>
+    <file src="..\.assets\nupkg-icon.png" target="Icon.png" />
     <file src="build\**" target="build" />
     <file src="$publishDir$**\*" target="tools" />
     <file src="$componentsrootdir$THIRD-PARTY-NOTICES.txt" target=".\THIRD-PARTY-NOTICES.txt" />
