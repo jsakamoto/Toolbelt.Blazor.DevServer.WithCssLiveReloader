@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "README", "README", "{8A8F2F
 		RELEASE-NOTES.txt = RELEASE-NOTES.txt
 	EndProjectSection
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleSite", "SampleSite\SampleSite.csproj", "{77EC708E-27ED-4A88-B05C-26ABB159D4EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,6 +36,18 @@ Global
 		{B44D067B-13B3-469E-9B86-1CBAA154763D}.Release|x64.Build.0 = Release|Any CPU
 		{B44D067B-13B3-469E-9B86-1CBAA154763D}.Release|x86.ActiveCfg = Release|Any CPU
 		{B44D067B-13B3-469E-9B86-1CBAA154763D}.Release|x86.Build.0 = Release|Any CPU
+		{77EC708E-27ED-4A88-B05C-26ABB159D4EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77EC708E-27ED-4A88-B05C-26ABB159D4EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77EC708E-27ED-4A88-B05C-26ABB159D4EB}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{77EC708E-27ED-4A88-B05C-26ABB159D4EB}.Debug|x64.Build.0 = Debug|Any CPU
+		{77EC708E-27ED-4A88-B05C-26ABB159D4EB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{77EC708E-27ED-4A88-B05C-26ABB159D4EB}.Debug|x86.Build.0 = Debug|Any CPU
+		{77EC708E-27ED-4A88-B05C-26ABB159D4EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77EC708E-27ED-4A88-B05C-26ABB159D4EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77EC708E-27ED-4A88-B05C-26ABB159D4EB}.Release|x64.ActiveCfg = Release|Any CPU
+		{77EC708E-27ED-4A88-B05C-26ABB159D4EB}.Release|x64.Build.0 = Release|Any CPU
+		{77EC708E-27ED-4A88-B05C-26ABB159D4EB}.Release|x86.ActiveCfg = Release|Any CPU
+		{77EC708E-27ED-4A88-B05C-26ABB159D4EB}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
