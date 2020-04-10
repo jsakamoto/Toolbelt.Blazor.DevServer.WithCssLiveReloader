@@ -43,9 +43,9 @@ If you building a Blazor WebAssembly app which is ASP.NET Core hosted, please us
 
 **See also:** [`Toolbelt.AspNetCore.CssLiveReloader` NuGet package](https://www.nuget.org/packages/Toolbelt.AspNetCore.CssLiveReloader/)
 
-## Release Note
+## Release Notes
 
-- **v.1.0.0** - 1st release.
+Release Notes is [here.](RELEASE-NOTES.txt)
 
 ## License
 
