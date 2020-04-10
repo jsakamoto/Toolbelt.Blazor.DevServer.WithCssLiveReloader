@@ -1,2 +1,5 @@
+v.1.0.1
+- Support to Blazor v.3.2 Preview 3.
+
 v.1.0.0
 - Initial release.
