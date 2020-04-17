@@ -27,7 +27,7 @@ What you have to do is, just rewrite your project file (.csproj) to replace the 
     -->
 
     <!-- Add this ↓ package reference, instead. -->
-    <PackageReference Include="Toolbelt.Blazor.DevServer.WithCssLiveReloader" Version="1.0.1" PrivateAssets="all" />
+    <PackageReference Include="Toolbelt.Blazor.DevServer.WithCssLiveReloader" Version="1.0.2" PrivateAssets="all" />
     ...
 ```
 
@@ -35,7 +35,7 @@ That's all!
 
 ## Supported Blazor Version
 
-Blazor WebAssembly v.3.2 preview3.
+Blazor WebAssembly v.3.2.0 Preview 4.
 
 ## For Blazor WebAssembly ASP.NET Core hosted...
 
