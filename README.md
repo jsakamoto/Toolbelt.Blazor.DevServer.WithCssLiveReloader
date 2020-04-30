@@ -35,7 +35,7 @@ That's all!
 
 ## Supported Blazor Version
 
-Blazor WebAssembly v.3.2.0 Preview 5.
+Blazor WebAssembly v.3.2.0 Release Candidate 1.
 
 ## For Blazor WebAssembly ASP.NET Core hosted...
 
