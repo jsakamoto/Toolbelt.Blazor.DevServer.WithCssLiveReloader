@@ -1,3 +1,6 @@
+v.3.2.0
+- Support to Blazor v.3.2 Official Release.
+
 v.1.0.4
 - Support to Blazor v.3.2 Release Candidate 1.
 
