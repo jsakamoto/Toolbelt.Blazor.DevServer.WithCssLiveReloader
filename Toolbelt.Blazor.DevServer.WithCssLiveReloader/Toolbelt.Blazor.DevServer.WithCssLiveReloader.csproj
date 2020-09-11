@@ -28,7 +28,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="5.0.0-preview.7.20365.19" />
     <PackageReference Include="Microsoft.Extensions.CommandLineUtils" Version="1.1.1" />
-    <PackageReference Include="Toolbelt.AspNetCore.CssLiveReloader" Version="2.0.0-preview.7.20364.11" />
+    <PackageReference Include="Toolbelt.AspNetCore.CssLiveReloader" Version="1.0.2" />
   </ItemGroup>
 
   <!-- Pack settings -->
@@ -44,6 +44,7 @@
     </ReadLinesFromFile>
     <PropertyGroup>
       <PackageReleaseNotes>@(ReleaseNoteLines, '%0a')</PackageReleaseNotes>
+      <PackageReleaseNotes>$([System.Text.RegularExpressions.Regex]::Match($(PackageReleaseNotes), "^(v\.[\d\.]+.+?)v\.[\d\.]+", System.Text.RegularExpressions.RegexOptions.Singleline).Groups[1].Value)</PackageReleaseNotes>
     </PropertyGroup>
     <PropertyGroup>
       <NuspecProperties>version=$(Version);$(NuspecProperties)</NuspecProperties>
