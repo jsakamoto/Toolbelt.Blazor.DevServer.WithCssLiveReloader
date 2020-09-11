@@ -23,11 +23,11 @@ What you have to do is, just rewrite your project file (.csproj) to replace the 
     ...
     <!-- Remove this 👇 package reference, and ... -->
     <!--
-    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="5.0.0-preview.7.20365.19" PrivateAssets="all" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="5.0.0-preview.8.20414.8" PrivateAssets="all" />
     -->
 
     <!-- Add this 👇 package reference, instead. -->
-    <PackageReference Include="Toolbelt.Blazor.DevServer.WithCssLiveReloader" Version="5.0.0-preview.7.20365.19" PrivateAssets="all" />
+    <PackageReference Include="Toolbelt.Blazor.DevServer.WithCssLiveReloader" Version="5.0.0-preview.8.20414.8" PrivateAssets="all" />
     ...
 ```
 
@@ -35,8 +35,8 @@ That's all!
 
 ## Supported Blazor Versions
 
-- Blazor WebAssembly v.3.2.1 👉 Use v.3.2.1 of this package.
-- Blazor WebAssembly v.5.0.0-preview.7.20365.19 👉 Use v.5.0.0-preview.7.20365.19 of this package.
+- Blazor WebAssembly v.3.2.1 👉 Use v.3.2.1.100 of this package.
+- Blazor WebAssembly v.5.0.0-preview.8.20414.8 👉 Use v.5.0.0-preview.8.20414.8 of this package.
 
 ## For Blazor WebAssembly ASP.NET Core hosted...
 
