@@ -27,7 +27,7 @@ What you have to do is, just rewrite your project file (.csproj) to replace the 
     -->
 
     <!-- Add this 👇 package reference, instead. -->
-    <PackageReference Include="Toolbelt.Blazor.DevServer.WithCssLiveReloader" Version="3.2.1" PrivateAssets="all" />
+    <PackageReference Include="Toolbelt.Blazor.DevServer.WithCssLiveReloader" Version="3.2.1.100" PrivateAssets="all" />
     ...
 ```
 

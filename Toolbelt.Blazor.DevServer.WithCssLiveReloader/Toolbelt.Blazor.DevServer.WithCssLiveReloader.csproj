@@ -5,7 +5,7 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <StartupObject>Microsoft.AspNetCore.Components.WebAssembly.DevServer.Program</StartupObject>
-    <Version>3.2.1</Version>
+    <Version>3.2.1.100</Version>
     <Description>Alternative Blazor Dev Server to be available CSS live reloading.</Description>
     <Authors>J.Sakamoto</Authors>
     <Owners>J.Sakamoto</Owners>
@@ -28,7 +28,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="3.2.1" />
     <PackageReference Include="Microsoft.Extensions.CommandLineUtils" Version="1.1.1" />
-    <PackageReference Include="Toolbelt.AspNetCore.CssLiveReloader" Version="1.0.1" />
+    <PackageReference Include="Toolbelt.AspNetCore.CssLiveReloader" Version="1.0.2" />
   </ItemGroup>
 
   <!-- Pack settings -->
@@ -44,6 +44,7 @@
     </ReadLinesFromFile>
     <PropertyGroup>
       <PackageReleaseNotes>@(ReleaseNoteLines, '%0a')</PackageReleaseNotes>
+      <PackageReleaseNotes>$([System.Text.RegularExpressions.Regex]::Match($(PackageReleaseNotes), "^(v\.[\d\.]+.+?)v\.[\d\.]+", System.Text.RegularExpressions.RegexOptions.Singleline).Groups[1].Value)</PackageReleaseNotes>
     </PropertyGroup>
     <PropertyGroup>
       <NuspecProperties>version=$(Version);$(NuspecProperties)</NuspecProperties>
