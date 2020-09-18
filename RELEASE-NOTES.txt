@@ -1,3 +1,6 @@
+v.5.0.0-rc.1.20451.17
+- Support to Blazor ver.5.0.0-rc.1.20451.17
+
 v.5.0.0-preview.8.20414.8
 - Support to Blazor ver.5.0.0-preview.8.20414.8
 
