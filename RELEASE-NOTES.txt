@@ -1,3 +1,7 @@
+v.3.2.1.200
+- Improve robustness and stability of CSS reloading.
+- Improve reloading updated CSS during disconnected.
+
 v.3.2.1.100
 - Fix: The "ObjectDisposedException" would be thrown in some cases.
 

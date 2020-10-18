@@ -5,7 +5,7 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <StartupObject>Microsoft.AspNetCore.Components.WebAssembly.DevServer.Program</StartupObject>
-    <Version>3.2.1.100</Version>
+    <Version>3.2.1.200</Version>
     <Description>Alternative Blazor Dev Server to be available CSS live reloading.</Description>
     <Authors>J.Sakamoto</Authors>
     <Owners>J.Sakamoto</Owners>
@@ -28,7 +28,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="3.2.1" />
     <PackageReference Include="Microsoft.Extensions.CommandLineUtils" Version="1.1.1" />
-    <PackageReference Include="Toolbelt.AspNetCore.CssLiveReloader" Version="1.0.2" />
+    <PackageReference Include="Toolbelt.AspNetCore.CssLiveReloader" Version="1.1.0" />
   </ItemGroup>
 
   <!-- Pack settings -->
