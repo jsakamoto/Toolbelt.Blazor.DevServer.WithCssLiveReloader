@@ -1,3 +1,8 @@
+v.5.0.0-rc.2.20475.17
+- Support to Blazor ver.5.0.0-rc.2.20475.17
+- Improve robustness and stability of CSS reloading.
+- Improve reloading updated CSS during disconnected.
+
 v.5.0.0-rc.1.20451.17
 - Support to Blazor ver.5.0.0-rc.1.20451.17
 
