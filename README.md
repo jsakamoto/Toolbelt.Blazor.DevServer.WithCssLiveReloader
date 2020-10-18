@@ -35,7 +35,7 @@ That's all!
 
 ## Supported Blazor Versions
 
-- Blazor WebAssembly v.3.2.1 👉 Use v.3.2.1.100 of this package.
+- Blazor WebAssembly v.3.2.1 👉 Use v.3.2.1.200 of this package.
 - Blazor WebAssembly v.5.0.0-rc.2.20475.17 👉 Use v.5.0.0-rc.2.20475.17 of this package.
 
 ## For Blazor WebAssembly ASP.NET Core hosted...
