@@ -3,9 +3,9 @@
   <PropertyGroup>
     <AssemblyName>blazor-devserver-with-csslivereloader</AssemblyName>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
     <StartupObject>Microsoft.AspNetCore.Components.WebAssembly.DevServer.Program</StartupObject>
-    <Version>3.2.1.200</Version>
+    <Version>5.0.0</Version>
     <Description>Alternative Blazor Dev Server to be available CSS live reloading.</Description>
     <Authors>J.Sakamoto</Authors>
     <Owners>J.Sakamoto</Owners>
@@ -22,13 +22,13 @@
 
     <!-- This is so that we add the FrameworkReference to Microsoft.AspNetCore.App -->
     <UseLatestAspNetCoreReference>true</UseLatestAspNetCoreReference>
-    <MicrosoftAspNetCoreAppVersion>3.1.0</MicrosoftAspNetCoreAppVersion>
+    <MicrosoftAspNetCoreAppVersion>5.0.0</MicrosoftAspNetCoreAppVersion>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="3.2.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="5.0.0" />
     <PackageReference Include="Microsoft.Extensions.CommandLineUtils" Version="1.1.1" />
-    <PackageReference Include="Toolbelt.AspNetCore.CssLiveReloader" Version="1.1.0" />
+    <PackageReference Include="Toolbelt.AspNetCore.CssLiveReloader" Version="1.1.1" />
   </ItemGroup>
 
   <!-- Pack settings -->

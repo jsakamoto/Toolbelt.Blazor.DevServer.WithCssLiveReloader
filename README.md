@@ -17,25 +17,26 @@ What you have to do is, just rewrite your project file (.csproj) to replace the 
 
 ```xml
 <!-- This is your project file (.csproj) -->
-<Project Sdk="Microsoft.NET.Sdk.Web">
+<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
   ...
   <ItemGroup>
     ...
     <!-- Remove this 👇 package reference, and ... -->
     <!--
-    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="3.2.1" PrivateAssets="all" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="5.0.0" PrivateAssets="all" />
     -->
 
     <!-- Add this 👇 package reference, instead. -->
-    <PackageReference Include="Toolbelt.Blazor.DevServer.WithCssLiveReloader" Version="3.2.1.200" PrivateAssets="all" />
+    <PackageReference Include="Toolbelt.Blazor.DevServer.WithCssLiveReloader" Version="5.0.0" PrivateAssets="all" />
     ...
 ```
 
 That's all!
 
-## Supported Blazor Version
+## Supported Blazor Versions
 
-Blazor WebAssembly v.3.2.1.
+- Blazor WebAssembly v.3.2.1 👉 Use v.3.2.1.200 of this package.
+- Blazor WebAssembly v.5.0.0 👉 Use v.5.0.0 of this package.
 
 ## For Blazor WebAssembly ASP.NET Core hosted...
 

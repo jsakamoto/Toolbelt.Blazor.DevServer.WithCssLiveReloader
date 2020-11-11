@@ -1,3 +1,21 @@
+v.5.0.0
+- Support to Blazor ver.5.0.0
+- Fix: HTTP 500 happened when the page includes the CSS that comes from CDN.
+
+v.5.0.0-rc.2.20475.17
+- Support to Blazor ver.5.0.0-rc.2.20475.17
+- Improve robustness and stability of CSS reloading.
+- Improve reloading updated CSS during disconnected.
+
+v.5.0.0-rc.1.20451.17
+- Support to Blazor ver.5.0.0-rc.1.20451.17
+
+v.5.0.0-preview.8.20414.8
+- Support to Blazor ver.5.0.0-preview.8.20414.8
+
+v.5.0.0-preview.7.20365.19
+- Support to Blazor ver.5.0.0-preview.7.20365.19
+
 v.3.2.1.200
 - Improve robustness and stability of CSS reloading.
 - Improve reloading updated CSS during disconnected.
