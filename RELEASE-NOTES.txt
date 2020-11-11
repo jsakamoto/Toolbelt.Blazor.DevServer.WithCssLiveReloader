@@ -1,3 +1,7 @@
+v.5.0.0
+- Support to Blazor ver.5.0.0
+- Fix: HTTP 500 happened when the page includes the CSS that comes from CDN.
+
 v.5.0.0-rc.2.20475.17
 - Support to Blazor ver.5.0.0-rc.2.20475.17
 - Improve robustness and stability of CSS reloading.
