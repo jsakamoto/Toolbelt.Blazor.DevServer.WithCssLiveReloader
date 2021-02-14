@@ -1,3 +1,6 @@
+v.5.0.3
+- Support to Blazor ver.5.0.3
+
 v.5.0.2
 - Support to Blazor ver.5.0.2
 
